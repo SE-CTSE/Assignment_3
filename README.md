@@ -1,7 +1,7 @@
-# Assignment_3
+## 3D Dinosaur Game with Unity**
 
-```
-# 3D Dinosaur Game with Unity
+<img width="758" alt="image" src="https://github.com/SE-CTSE/Assignment_3/assets/67488752/624466d2-cafc-430c-8008-f2b4da852984">
+
 
 
 ## Overview
@@ -47,13 +47,25 @@ To run the project locally, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Open the project in Unity.
-3. Ensure that you have the necessary Unity version installed.
+3. Ensure that you have the necessary Unity version installed (mention the version here).
 4. Run the game in the Unity Editor or build it for your desired platform.
 
 ## Demo
 
-https://drive.google.com/drive/folders/14whK8-tKxks0ipGu3qeLIGoeQhgxoubq?usp=sharing
+**Consider replacing this with a link to a publicly hosted video (e.g., YouTube, Vimeo):**
 
-```
+<a href="PLACEHOLDER_VIDEO_LINK">Gameplay Demo</a>
 
-Feel free to customize it further based on additional features or specific details of your project!
+## Screenshots
+
+**Add screenshots showcasing the game environment and gameplay.**
+
+## Additional Information
+
+* **Version:** (mention the current version if applicable)
+* **Licensing:** (mention any licensing information for used assets)
+* **Contributions:** (mention guidelines for contributing if applicable)
+
+**Note:** Replace `PLACEHOLDER_VIDEO_LINK` with the actual link to your video demo.
+
+This update provides a more comprehensive and informative README for your project on GitHub!
