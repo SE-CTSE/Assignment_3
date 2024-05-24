@@ -49,23 +49,4 @@ To run the project locally, follow these steps:
 2. Open the project in Unity.
 3. Ensure that you have the necessary Unity version installed (mention the version here).
 4. Run the game in the Unity Editor or build it for your desired platform.
-
-## Demo
-
-**Consider replacing this with a link to a publicly hosted video (e.g., YouTube, Vimeo):**
-
-<a href="PLACEHOLDER_VIDEO_LINK">Gameplay Demo</a>
-
-## Screenshots
-
-**Add screenshots showcasing the game environment and gameplay.**
-
-## Additional Information
-
-* **Version:** (mention the current version if applicable)
-* **Licensing:** (mention any licensing information for used assets)
-* **Contributions:** (mention guidelines for contributing if applicable)
-
-**Note:** Replace `PLACEHOLDER_VIDEO_LINK` with the actual link to your video demo.
-
-This update provides a more comprehensive and informative README for your project on GitHub!
+5. you can directly use our apk file also.
