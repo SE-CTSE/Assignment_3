@@ -4,7 +4,7 @@ public class DinosaurController : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float jumpForce = 5f;
-    private bool isGrounded = true;
+    public float raycastDistance = 0.1f; 
     private Rigidbody rb;
 
     void Start()
@@ -14,22 +14,40 @@ public class DinosaurController : MonoBehaviour
 
     void Update()
     {
-        // Move the dinosaur forward
-        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        HandleInput();
 
-        // Jumping mechanism
-        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
+        MoveForward();
+
+        // Smooth Jumping
+        if (IsGrounded() && Input.GetKeyDown(KeyCode.Space))
         {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            isGrounded = false;
+            Jump();
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    void HandleInput()
     {
-        if (collision.gameObject.CompareTag("Ground"))
+
+    }
+
+    void MoveForward()
+    {
+        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+    }
+
+    void Jump()
+    {
+        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+    }
+
+    bool IsGrounded()
+    {
+        // Raycast to detect if grounded
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, raycastDistance))
         {
-            isGrounded = true;
+            return true;
         }
+        return false;
     }
 }
