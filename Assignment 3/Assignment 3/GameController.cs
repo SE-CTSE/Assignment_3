@@ -27,7 +27,13 @@ public class GameController : MonoBehaviour
     {
         isGameOver = true;
         gameOverPanel.SetActive(true);
-        Time.timeScale = 0; // Pause the game
+        Time.timeScale = 0; 
+    }
+
+        void create()
+    {
+        gameOverPanel.SetActive(false);
+        InvokeRepeating("IncreaseScore", 1f, 1f);
     }
 
     void Update()
