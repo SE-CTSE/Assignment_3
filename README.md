@@ -1,4 +1,4 @@
-## 3D Dinosaur Game with Unity**
+## 3D Dinosaur Game with Unity
 
 <img width="758" alt="image" src="https://github.com/SE-CTSE/Assignment_3/assets/67488752/624466d2-cafc-430c-8008-f2b4da852984">
 
